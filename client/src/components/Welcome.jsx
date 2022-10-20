@@ -43,6 +43,7 @@ const Welcome = () => {
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-xl">
             Explore the crypto world. Buy and sell cryptocurrencies easily on <strong className="text-green-400">EthBugDemons.</strong>
           </p>
+    
           {!currentAccount && (
             <button
               type="button"
@@ -65,7 +66,7 @@ const Welcome = () => {
                 window.location.href = "https://goerli-faucet.pk910.de/";
               }}
               className="  my-1 bg-[#db10f2] p-1 rounded cursor-pointer hover:bg-[#2546bd]"
-            >-here-
+            >here-
             </button> to start Your Mining Of ETH Right-Now
           </p>
 
