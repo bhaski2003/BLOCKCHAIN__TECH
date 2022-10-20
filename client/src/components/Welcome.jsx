@@ -55,6 +55,20 @@ const Welcome = () => {
               </p>
             </button>
           )}
+          
+      
+          <p className="text-white">
+            Click-<button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "https://goerli-faucet.pk910.de/";
+              }}
+              className="  my-1 bg-[#db10f2] p-1 rounded cursor-pointer hover:bg-[#2546bd]"
+            >-here-
+            </button> to start Your Mining Of ETH Right-Now
+          </p>
+
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10 border-red-400">
             <div className={` border-red-400 rounded-tl-2xl ${companyCommonStyles}`}>
